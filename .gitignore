@@ -1,0 +1,27 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Node
+client/node_modules/
+client/.env
+client/.env.local
+
+# Environment/API keys
+*.env
+*.env.*
+*.json
+!backend/diplom-nikita-10af4-firebase-adminsdk-fbsvc-07f70a665a.json  # Remove this line if you want to ignore this file too
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+backend/diplom-nikita-10af4-firebase-adminsdk-fbsvc-07f70a665a.json

@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "seedstore"
+location: "europe-west3"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "seedstore-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
